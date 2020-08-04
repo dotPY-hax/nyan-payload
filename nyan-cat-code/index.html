@@ -1,0 +1,19 @@
+<html>
+<body>
+<audio autoplay="true" loop="true" id="nyan">
+		<source src="nyan-cat.ogg" type="audio/ogg" />
+		<source src="nyan-cat.mp3" type="audio/mpeg" />
+	</audio>
+<script>
+	
+	function play_me()
+	{
+		var audio = document.getElementById("nyan")
+		audio.play();
+	}
+	play_me();
+</script>	
+<img src="nyan.gif" style="height: 100%; width: 100%;" onclick="play_me()">
+<!-- https://github.com/pyrat3/nyan-payload -->
+</body>
+</html>
