@@ -8,13 +8,15 @@ This is for educational use only.
 Payloads are:
 
  -  [python_nyan_cat_payload.txt](https://github.com/pyrat3/nyan-payload/blob/master/python_nyan_cat_payload.txt "python_nyan_cat_payload.txt")
-	 - ready to copy&paste into your (or someone elses) console
+	 - ready to copy&paste into your (or someone elses) console - /var/www/html *cough*
  - [python_nyan_cat_payload_with_exec_wrapper.txt](https://github.com/pyrat3/nyan-payload/blob/master/python_nyan_cat_payload_with_exec_wrapper.txt "python_nyan_cat_payload_with_exec_wrapper.txt")
 	- ready to copy&paste into a Python interpreter
 - [python_nyan_cat_payload_only.txt](https://github.com/pyrat3/nyan-payload/blob/master/python_nyan_cat_payload_only.txt "python_nyan_cat_payload_only.txt")
 	- base64 with only the stager and the files ready for use in your own programs.
 
 I also added the program I wrote for packing the files and stager together and creating the payload: [payloader.py](https://github.com/pyrat3/nyan-payload/blob/master/payloader.py "payloader.py")
+
+I might or might not add other stagers in php, bash or other languages.
 
 NYAN NYAN NYAN NYAN NYAN NYAN NYAN NYAN NYAN NYAN NYAN
 
